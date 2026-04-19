@@ -28,9 +28,7 @@
 - Переводит всё в годовой выброс CO₂
 
 ## Источники информации (наши референсы)
-- [Что такое углеродный след? (ООН)](https://www.un.org/ru/climatechange/what-is-carbon-footprint)
-- [Причины и последствия изменения климата (ООН)](https://www.un.org/ru/climatechange/science/causes-effects-climate-change)
-- [5 простых действий для снижения выбросов (ООН)](https://www.un.org/ru/climatechange/5-ways-reduce-carbon-footprint)
+- [Действия для снижения выбросов (ООН)](https://www.un.org/ru/actnow/ten-actions)
 
 ##  Планы по расширению
 - [ ] База данных для хранения истории расчётов и авторизация
