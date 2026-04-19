@@ -1,0 +1,19 @@
+бот запускается через tor - 
+Установка Tor Expert Bundle (только служба, без браузера):
+
+Скачай Tor Expert Bundle для Windows.
+Распакуй архив в удобную папку (например, C:\tor_brawser).
+В папке tor создай файл torrc (без расширения) со строками:
+
+text
+SOCKSPort 9050
+DataDirectory C:\tor\data
+Log notice file C:\tor\log.txt
+
+
+Запусти Tor командой в PowerShell от имени администратора:
+C:\tor_brawser\tor\tor.exe -f C:\tor\torrc
+
+Убедись, что Tor работает: открой новое окно PowerShell и выполни:
+Test-NetConnection -ComputerName 127.0.0.1 -Port 9050
+Если TcpTestSucceeded : True — всё готово.
