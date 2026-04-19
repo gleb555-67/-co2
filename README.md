@@ -9,7 +9,11 @@
 > Продвинутый калькулятор углеродного следа на Python
 
 ## Библиотеки
-Скоро будут
+Установлены в виртуальное окружение-
+import telebot
+import sqlite3
+from datetime import datetime
+from telebot import apihelper
 
 ## Как запустить
 1.Найти мой проект можно по username в телеграмме - @ai_co2_bot
