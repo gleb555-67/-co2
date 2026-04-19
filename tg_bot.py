@@ -7,7 +7,7 @@ from telebot import apihelper
 apihelper.proxy = {'https': 'socks5://127.0.0.1:9050'}
 
 # --------------------- ТОКЕН БОТА -----------------------------
-BOT_TOKEN = "8494854564:AAHkTILO_fEVDVYDhTOhwP2XoChc1O6nIiE"
+BOT_TOKEN = "Твой токе"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 user_data = {}  # временное хранилище данных во время диалога
